@@ -8,7 +8,7 @@ const { log } = require("console");
 const path = require('path');
 
 const app = express();
-
+ 
 const allowedOrigin = 'https://6661e486927b7b27477f548b--graceful-gumdrop-9e2bd3.netlify.app'; {/* I have to edit his path later */ }
 app.use(cors({
   origin: allowedOrigin,
